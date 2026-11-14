@@ -3,11 +3,12 @@
 **Author:** Adam Bedard, Security Researcher
 **Product:** Gurux GuruxDLMS.c, the ANSI C DLMS/COSEM library (https://github.com/Gurux/GuruxDLMS.c)
 **Affected:** versions before 9.0.2608.1701 (confirmed on commit `b14e6e0`)
-**Fixed:** 9.0.2608.1701, commit [`11a4fefe69`](https://github.com/Gurux/GuruxDLMS.c/commit/11a4fefe69b70452e00a8812a05ac97d99237c87) (2026-08-17)
+**Fixed:** 9.0.2608.1701, commit [`4046d8bfc7`](https://github.com/Gurux/GuruxDLMS.c/commit/4046d8bfc70807992b6d310db24b8be2b307312f) (2026-08-17)
 **Published:** 2026-11-11
 
 If you build on GuruxDLMS.c, update to 9.0.2608.1701 or later. The repository has no release
-tags; the fix is the commit above.
+tags; the fix is the commit above. The 9.0.2608.1701 release tip is the later commit `11a4fefe69`,
+which contains the fix but does not change any of the affected code itself.
 
 | # | CVE | Function | Type | CVSS 3.1 |
 |---|---|---|---|---|
@@ -93,7 +94,7 @@ exactly the expected range. The fixes in 9.0.2608.1701 were reviewed in source.
 | Date | Event |
 |---|---|
 | 2026-08-12 | Reported to Gurux by email; acknowledged the same day |
-| 2026-08-17 | Fixes released in 9.0.2608.1701 (commit `11a4fefe69`) |
+| 2026-08-17 | Fixes released in 9.0.2608.1701 (fix commit `4046d8bfc7`) |
 | 2026-08-22 | Fixes reviewed by the reporter |
 | 2026-11-11 | CVE IDs requested from MITRE (Gurux is not a CNA) |
 | 2026-11-11 | This advisory published |
